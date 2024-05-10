@@ -1,7 +1,7 @@
 ﻿// DOCTOR BSOD.cpp : This Doctor will cause a BSOD with a random NTSTATUS (error) CODE!!!
 // credits to YT-AleX-1337 for the true NRG
 // please use the release x86 configuration
-// version 2.0 - Added 2 Warnings and BSOD codes up to c000038e (last one avaliable on 32-bit XP)
+// version 2.0 - Added 2 Warnings and BSOD codes up to c000038e (last one available on 32-bit XP)
 #include <windows.h>
 //#include <tlhelp32.h>
 typedef NTSTATUS(NTAPI* NRHEdef)(NTSTATUS, ULONG, ULONG, PULONG, ULONG, PULONG);
